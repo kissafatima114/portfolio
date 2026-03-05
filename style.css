@@ -143,3 +143,19 @@ footer {
   padding: 40px 0;
   background: #000;
 }
+.gallery-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.gallery-item img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.gallery-item figcaption {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #bbb;
+  line-height: 1.4;
+}
